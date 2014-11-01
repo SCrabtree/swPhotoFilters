@@ -13,6 +13,7 @@
 		146666F91A05354600B6909F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146666F81A05354600B6909F /* Images.xcassets */; };
 		146666FC1A05354600B6909F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146666FA1A05354600B6909F /* LaunchScreen.xib */; };
 		146667081A05354600B6909F /* PhotoFiltersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146667071A05354600B6909F /* PhotoFiltersTests.swift */; };
+		14A5CE131A0542A6005F03F7 /* Maize.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14A5CE121A0542A6005F03F7 /* Maize.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		146667011A05354600B6909F /* PhotoFiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146667061A05354600B6909F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		146667071A05354600B6909F /* PhotoFiltersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFiltersTests.swift; sourceTree = "<group>"; };
+		14A5CE121A0542A6005F03F7 /* Maize.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maize.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		146666EE1A05354600B6909F /* PhotoFilters */ = {
 			isa = PBXGroup;
 			children = (
+				14A5CE121A0542A6005F03F7 /* Maize.jpg */,
 				146666F11A05354600B6909F /* AppDelegate.swift */,
 				146666F31A05354600B6909F /* ViewController.swift */,
 				146666F51A05354600B6909F /* Main.storyboard */,
@@ -194,6 +197,7 @@
 			files = (
 				146666F71A05354600B6909F /* Main.storyboard in Resources */,
 				146666FC1A05354600B6909F /* LaunchScreen.xib in Resources */,
+				14A5CE131A0542A6005F03F7 /* Maize.jpg in Resources */,
 				146666F91A05354600B6909F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				1466670D1A05354600B6909F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1466670E1A05354600B6909F /* Build configuration list for PBXNativeTarget "PhotoFiltersTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				146667101A05354600B6909F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
